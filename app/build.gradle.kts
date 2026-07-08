@@ -40,6 +40,8 @@ android {
 }
 
 dependencies {
+    // Librería para activar el catálogo completo de iconos de Material Design
+    implementation("androidx.compose.material:material-icons-extended")
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
